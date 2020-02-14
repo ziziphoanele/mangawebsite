@@ -1,0 +1,67 @@
+.body{
+
+    background-color: aquamarine;
+}
+
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.nav-bar{
+  display: inline-block;
+  flex-direction: row;
+  margin: 10px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 30px;
+  padding:20px 30px 20px 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+   }
+  
+  
+   .nav-bar a{
+       color: white;
+       text-decoration:none;
+       font-size: 28px;
+       font-family: Verdana;
+       font-weight: normal;
+       width: 90px;
+       height: 90px;
+       border:2px solid white ;
+       padding:10px 20px 10px 20px ;
+       margin: 0 20px 0 0;
+       align-items: center;
+   }
+      
+  
+  
+   .nav-bar a:hover{
+       color: rebeccapurple;
+       background-color: wheat;
+       padding:10px 20px  10px 20px; 
+  
+   }
+   .zizipho-title{
+       text-align: center;
+       color: white;
+   }
+   .nav-bar  .img{
+     background-position: center;
+  
+   }
